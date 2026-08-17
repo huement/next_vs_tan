@@ -17,7 +17,7 @@ function DashboardComponent() {
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
       <h1>TanStack Start / Router (Port 3001)</h1>
-      <p>Native route boundary schema validation with auto-inferred types:</p>
+      <p>Native route boundary schema validation<br/> with auto-inferred types:</p>
       <pre>{JSON.stringify({ page, filter }, null, 2)}</pre>
     </div>
   )
